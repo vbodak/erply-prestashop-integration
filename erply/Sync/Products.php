@@ -71,6 +71,7 @@ class Erply_Sync_Products extends Erply_Sync_Abstract
 			, 'recordsOnPage' => self::$erplyApiRecordsOnPage
 			, 'pageNo' => $apiRequestPageNr
 			, 'status' => 'ALL_EXCEPT_ARCHIVED'
+			, 'displayedInWebshop' => 1
 		);
 
 		do
